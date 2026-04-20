@@ -108,7 +108,7 @@ copy SAM C:\Users\user
 
 * Now try to transfer these two files in my kali linux using ftp server
 ```
-kali: python3 -m pyftplib --write --port 21
+kali: python3 -m pyftpdlib --write --port 21
 ```
 * now from windows connect to kali using ftp
 ```
